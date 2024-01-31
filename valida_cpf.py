@@ -1,3 +1,0 @@
-"""
-Validador de CPF
-"""
