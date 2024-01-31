@@ -1,0 +1,34 @@
+
+*************************************************************************
+Sim, existem várias APIs externas que podem ser usadas para verificar a *
+validade de um CPF. Aqui estão algumas delas:                           *
+                                                                        *
+1. **API Brasil**¹: Esta API permite que desenvolvedores acessem dados  *
+cadastrais de uma Pessoa Física e verifiquem sua situação fiscal junto  *
+à Receita Federal. Tudo isso é feito utilizando o número de CPF e a     *
+Data de Nascimento do indivíduo¹.                                       *
+                                                                        *
+2. **API Invertexto**²: Esta API valida documentos como CPF e retorna   *
+um JSON com verdadeiro ou falso².                                       *
+                                                                        *
+3. **NFE.io**⁵: Esta API permite a consulta de CPFs da Receita Federal. *
+Ao passar o CPF e a data de nascimento da pessoa para a NFE.io, a API   *
+enviará esses dados para o governo, pegará as respostas e devolverá     *
+essas informações de uma forma padronizada e com garantia               *
+de confiabilidade⁵.                                                     *
+                                                                        *
+4. **Datavalid**⁴: Esta é uma solução digital para validação            *
+de identidade que é um serviço de qualificação cadastral de pessoas     *
+físicas e jurídicas, por meio de ferramenta (API) de inteligência⁴.     *
+                                                                        *
+Por favor, note que o uso dessas APIs pode exigir a aceitação           *
+de termos de serviço, o pagamento de taxas, e/ou a obtenção             *
+de permissões ou licenças. Além disso, você deve garantir que o uso     *
+dessas APIs esteja em conformidade com todas as leis e                  *
+regulamentos aplicáveis, incluindo, mas não se limitando a,             *
+leis de privacidade e proteção de dados. Espero que isso ajude!         *
+Se você tiver mais perguntas sobre Python ou qualquer outra coisa,      *
+fique à vontade para perguntar.                                         *
+                                                                        *
+Origem: conversa com o Bing, 30/01/2024                                 *
+                                                                        *
