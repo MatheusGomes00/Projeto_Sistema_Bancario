@@ -2,8 +2,10 @@ from .cliente import PessoaFisica
 from .conta import ContaCorrente
 from .transacoes import Deposito, Saque
 from .historico import Historico
+from .verifica_CPF import validar
 
-__all__ = ['PessoaFisica', 'ContaCorrente', 'Deposito', 'Saque', 'Historico']
+__all__ = ['PessoaFisica', 'ContaCorrente', 'Deposito', 'Saque', 'Historico', 'validar']
+
 '''
 O atributo __all__ é uma lista que define a interface pública de um módulo Python. 
 Ele especifica quais nomes devem ser importados quando um cliente importa um módulo 
