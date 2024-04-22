@@ -36,8 +36,8 @@ def verificador_1(cpf):
     verificador_1 = verifica_resto(resto)
     return verificador_1
 
-def verificador_2(cpf, verificador_1, soma=0, cont=11):
-    soma = soma_da_multiplicacao(cpf, cont, indice_menor=3)
+def verificador_2(cpf, verificador_1, soma=0, indice_maior=11):
+    soma = soma_da_multiplicacao(cpf, indice_maior, indice_menor=3)
     soma += verificador_1 * 2
     resto = calcula_resto(soma)
     verificador_2 = verifica_resto(resto)
