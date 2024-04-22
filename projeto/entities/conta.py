@@ -62,7 +62,7 @@ class Conta:
    
     def depositar(self, valor):
         if valor > 0:
-            self.saldo += valor
+            self._saldo += valor
             print("\n*** Depósito realizado com sucesso! ***")
             return True
         else:
