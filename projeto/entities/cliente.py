@@ -1,3 +1,6 @@
+from entities.verifica_CPF import validar
+
+
 class Cliente:
     def __init__(self, endereco):
         self._endereco = endereco
@@ -41,7 +44,8 @@ class PessoaFisica(Cliente):
 
     @classmethod
     def criar_cliente(cls, clientes):
-        cpf = input("Informe o CPF (somente numeros): ")
+        # cpf = input("Informe o CPF (somente numeros): ")
+        cpf = validar()
         cliente = cls.filtrar_clientes(cpf, clientes)
 
         if cliente:
